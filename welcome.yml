@@ -5,6 +5,8 @@ spring:
         url: http://localhost:8762
         instance:
           service-url: http://localhost:${server.port}
+  application:
+    name: welcome
 
 management:
   endpoints:
