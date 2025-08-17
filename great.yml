@@ -5,6 +5,8 @@ spring:
         url: http://localhost:8762
         instance:
           service-base-url: http://localhost:9091
+application:
+  name: great
 
 
 server:
