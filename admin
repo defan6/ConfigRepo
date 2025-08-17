@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: 02_Service_Admin
+  boot:
+    admin:
+      discovery:
+        convert: true
+
+
+
+server:
+  port: 8762
