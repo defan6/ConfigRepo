@@ -14,5 +14,7 @@ management:
       exposure:
         include: "*"
 
+msg: "WELCOME MAN"
+
 
 
