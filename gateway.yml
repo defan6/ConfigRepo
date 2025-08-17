@@ -11,11 +11,11 @@ spring:
     gateway:
       routes:
         - id: api-1
-          uri: lb://WELCOME-SERVICE
+          uri: lb://welcome
           predicates:
             - Path=/welcome
         - id: api-2
-          uri: lb://GREAT-SERVICE
+          uri: lb://great
           predicates:
             - Path=/great
 
