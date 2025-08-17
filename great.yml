@@ -1,6 +1,4 @@
 spring:
-  application:
-    name: Great-Service
   boot:
     admin:
       client:
